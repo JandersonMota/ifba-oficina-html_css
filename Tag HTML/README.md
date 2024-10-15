@@ -22,16 +22,16 @@ São instruções que informam ao navegador como formatar o conteúdo de uma pá
 </html>
 ```
 
-### < !DOCTYPE html >
+### `<!DOCTYPE html>`
 É uma instrução que indica ao navegador qual versão do HTML deve ser usada para exibir uma página. Sem essa declaração, os navegadores podem entrar no *`"quirks mode"`*, o que pode fazer com que a página seja exibida de maneira inesperada.
 
-### < html >
+### `<html>`
 É a raiz de um documento HTML. Ela define o início e o fim de todo o conteúdo HTML que será exibido na página da web.
 
-### < head >
+### `<head>`
 Contém informações dos metadados sobre a página, além de links para recursos externos como folhas de estilo (CSS), scripts (JavaScript) e outras instruções para o navegador.
 
-### < meta >
+### `<meta>`
 Fornece informações sobre uma página web aos mecanismos de busca e navegadores. As meta tags são importantes para o SEO, ou seja, para o posicionamento do site nas páginas de resultados dos buscadores.
 
 Pontos importantes do SEO:
@@ -39,7 +39,7 @@ Pontos importantes do SEO:
 - Ajudam a organizar a página;
 - Favorecem o posicionamento na SERP.
 
-#### Funções comuns da tag:
+#### Funções comuns da tag `<meta>`:
 **1. Especificar o conjunto de caracteres (charset):** Define qual conjunto de caracteres será utilizado na página (geralmente UTF-8, que suporta a maioria dos caracteres, incluindo letras acentuadas).
 ```
 <meta charset="UTF-8">
@@ -87,7 +87,7 @@ Pontos importantes do SEO:
 </head>
 ```
 
-### < title >
+### `<title>`
 Define o título de uma página da web. Ela é importante para o SEO, pois ajuda os mecanismos de busca a entenderem o conteúdo da página e a classificar os resultados. Ela é um dos principais fatores que atraem visitantes ao site e pode ser a única oportunidade de chamar a atenção do leitor.
 
 A tag `<title>` aparece em vários locais, como: Na aba do navegador, Na página de resultados de pesquisa (SERP), Nos posts de redes sociais.
@@ -95,7 +95,7 @@ A tag `<title>` aparece em vários locais, como: Na aba do navegador, Na página
 
 **Nota:** SERP (Search Engine Results Page) é a página que os motores de busca, como o Google, Bing ou Yahoo, exibem após um usuário realizar uma pesquisa.
 
-### < body >
+### `<body>`
 É onde todo o conteúdo visível de uma página web é definido. Isso inclui textos, imagens, links, vídeos, botões, tabelas, formulários e outros elementos que os usuários podem interagir diretamente.
 
 ## Comparação de Tags Semânticas vs. Tags Não Semânticas
@@ -120,12 +120,40 @@ Exemplo de estruturação com tags semânticas:
 
 ![image](https://github.com/user-attachments/assets/e1ff6368-e8ac-46cd-99a4-346846af284f)
 
-## img
+
+
+## Tag `<main>`
+
+
+
+## Tag `<section>`
+
+
+
+## Títulos e Subtítulos
+
+| Tag         | Exemplo de Uso                     |
+|-------------|-------------------------------------|
+| `<h1>`      | `<h1>Título</h1>`                  |
+| `<h2>`      | `<h2>Subtítulo</h2>`               |
+| `<h3>`      | `<h3>Subtítulo</h3>`               |
+| `<h4>`      | `<h4>Subtítulo</h4>`               |
+| `<h5>`      | `<h5>Subtítulo</h5>`               |
+| `<h6>`      | `<h6>Subtítulo</h6>`               |
+
+
+
+
+## Tag `<p>`
+
+
+
+## Tag `<img>`
 É usada para incorporar imagens em uma página web.
 
 `<img src="" alt="" id="" class="" title="" loading="lazy">`
 
-### Atributos Comuns da Tag `img`:
+### Atributos Comuns da Tag `<img>`:
 #### src (obrigatório)
 - Define o caminho da imagem que deve ser exibida.
 - Exemplo: `<img src="imagem.jpg">`
@@ -164,8 +192,22 @@ Utiliza o carregamento preguiçoso para otimizar a experiência do usuário em p
 #### Outros atributos mais comuns que podem ser usados com a tag `<img>`:
 width, height, style, usemap, usemap, usemap e usemap.
 
-## label
-é usada para associar uma descrição ou rótulo a um elemento de formulário, como um campo de entrada (<input>, <select>, <textarea>, etc.). O principal objetivo da tag <label> é melhorar a acessibilidade e a usabilidade de formulários em páginas web, e pode ser configurada com uma série de atributos. Ela garante que os formulários sejam mais fáceis de usar, tanto para usuários comuns quanto para aqueles que dependem de tecnologias assistivas.
+
+
+## Tag `<form>`
+
+
+
+## Tag `<fieldset>`
+
+
+
+## Tag `<legend>`
+
+
+
+## Tag `<label>`
+é usada para associar uma descrição ou rótulo a um elemento de formulário, como um campo de entrada (`<input>`, `<select>`, `<textarea>`, etc.). O principal objetivo da tag `<label>` é melhorar a acessibilidade e a usabilidade de formulários em páginas web, e pode ser configurada com uma série de atributos. Ela garante que os formulários sejam mais fáceis de usar, tanto para usuários comuns quanto para aqueles que dependem de tecnologias assistivas.
 
 ### Atributos que podem ser usados na tag `<label>`:
 
@@ -184,7 +226,12 @@ width, height, style, usemap, usemap, usemap e usemap.
 #### Outros atributos mais comuns que podem ser usados com a tag `<label>`:
 `form`, `style`, `title`, `lang`, `dir`, `accesskey`, `hidden`, `aria-*`, `tabindex`.
 
-## input
+
+
+## Tag `<input>`
+Ela é usada para criar campos interativos onde os usuários podem inserir dados, ou seja, é essencial para coletar dados de usuários em um formulário.
+
+`<input type="" name="" id="" class="">`
 
 ### Atributos Comuns da Tag `<input>`:
 - Define o tipo de campo de entrada. Pode ser um dos vários valores, como `text`, `password`, `email`, `number`, `checkbox`, `radio`, `file`, `submit`, entre outros.
@@ -242,3 +289,7 @@ width, height, style, usemap, usemap, usemap e usemap.
 
 #### Outros atributos mais comuns que podem ser usados com a tag `<input>`:
 `readonly`, `min` e `max`, `step`, `autofocus`, `autocomplete`, `multiple`, `size`, `form`, `list`, `accept`, `alt`, `src`, `height` e `width`, `formaction`, `formenctype`, `formnovalidate`, `formtarget`.
+
+
+
+## Tag `<footer>`
