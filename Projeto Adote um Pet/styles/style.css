@@ -1,0 +1,144 @@
+:root {
+    --cor-primaria: #fff;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #f4f4f4;
+}
+
+header {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 5px 20px;
+    background-color: var(--cor-primaria);
+}
+
+.logo-login {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    align-items: center;
+}
+
+.logo {
+    max-height: 80px;
+}
+
+.login form {
+    display: flex;
+    gap: 10px;
+}
+
+.login input {
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.login button {
+    padding: 8px 16px;
+    background-color: #4CAF50;
+    color: var(--cor-primaria);
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.banner {
+    width: 100%;
+}
+
+.banner-img {
+    width: 100%;
+    height: auto;
+}
+
+a {
+    text-decoration: none;
+    display: flex;
+    width: 100%;
+    max-width: 245px;
+}
+
+.buttons {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    padding: 20px 0;
+    background-color: #eee;
+}
+
+.buttons button {
+    padding: 15px 30px;
+    background-color: #4CAF50;
+    color: var(--cor-primaria);
+    border: none;
+    border-radius: 8px;
+    font-size: 1rem;
+    width: 100%;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn-doar:hover {
+    background-color: #4dd151;
+}
+
+.icon-btn {
+    margin-right: 10px;
+    max-width: 30px;
+}
+
+.tutores {
+    padding: 20px;
+    text-align: center;
+    background-color: var(--cor-primaria);
+    width: 100%;
+}
+
+.gallery {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.gallery img {
+    width: 30%;
+    height: auto;
+    margin: 10px;
+    border-radius: 8px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+footer {
+    background-color: #333;
+    color: var(--cor-primaria);
+    padding: 20px;
+    text-align: center;
+    width: 100%;
+}
+
+footer ul {
+    list-style: none;
+    padding: 10px 0;
+}
+
+footer li {
+    margin: 5px 0;
+}
+
+@media (max-width: 1200px) {}
