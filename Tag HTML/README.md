@@ -123,14 +123,21 @@ Exemplo de estruturação com tags semânticas:
 
 
 ## Tag `<main>`
+Define o conteúdo principal de uma página web. O conteúdo dentro da tag `<main>` deve ser único e de maior relevância na página. Usar a tag `<main>` ajuda na acessibilidade e na estruturação semântica do documento, facilitando a navegação por leitores de tela e motores de busca.
+
+> Fonte: <a href="https://developer.mozilla.org/pt-BR/docs/Web/HTML/Element/main">`<main>`</a>
 
 
 
 ## Tag `<section>`
+É usado para agrupar conteúdo em blocos tematicamente relacionados dentro de uma página. Cada `<section>` deve ter um propósito claro e específico, com conteúdo que possa ser considerado independente ou destacado dentro do contexto da página. Ela é especialmente útil para estruturar documentos de maneira lógica e organizada.
+
+> Fonte: <a href="https://developer.mozilla.org/pt-BR/docs/Web/HTML/Element/section">`<section>`</a>
 
 
 
 ## Títulos e Subtítulos
+São usadas para organizar o conteúdo de um documento em diferentes níveis de importância ou hierarquia, de forma a estruturar bem as informações. Cada número indica um nível de hierarquia, onde `<h1>` é o título mais importante e `<h6>` é o menos importante.
 
 | Tag         | Exemplo de Uso                     |
 |-------------|-------------------------------------|
@@ -141,10 +148,18 @@ Exemplo de estruturação com tags semânticas:
 | `<h5>`      | `<h5>Subtítulo</h5>`               |
 | `<h6>`      | `<h6>Subtítulo</h6>`               |
 
+`<h1>`: Representa o título principal da página ou do conteúdo. Recomendado ser usado uma única vez em um documento para representar o assunto principal.
+
+`<h2>`: Usado para subtítulos principais que dividem o conteúdo em grandes seções ou categorias. São os tópicos principais dentro do título `<h1>`.
+
+> Fonte: <a href="https://developer.mozilla.org/pt-BR/docs/Web/HTML/Element/Heading_Elements">`<h1>`-`<h6>`</a>
 
 
 
 ## Tag `<p>`
+A tag `<p>` representa um parágrafo, que são usados para agrupar conteúdos relacionados de qualquer tipo, como imagens e campos de um formulário.
+
+> Fonte: <a href="https://developer.mozilla.org/pt-BR/docs/Web/HTML/Element/p">`<p>`</a>
 
 
 
@@ -192,17 +207,50 @@ Utiliza o carregamento preguiçoso para otimizar a experiência do usuário em p
 #### Outros atributos mais comuns que podem ser usados com a tag `<img>`:
 width, height, style, usemap, usemap, usemap e usemap.
 
+> Fonte: <a href="https://developer.mozilla.org/pt-BR/docs/Web/HTML/Element/img">`<img>`</a>
+
 
 
 ## Tag `<form>`
+A tag `<form>` é usada para criar um formulário interativo que coleta dados do usuário e os envia para um servidor. Ela serve como um contêiner para vários tipos de campos de entrada, como caixas de texto, botões de rádio, caixas de seleção, menus suspensos, e botões de envio. Os dados coletados por meio do formulário podem ser enviados para um servidor para processamento, como via uma requisição HTTP.
+
+### Atributos que podem ser usados na tag `<form>`:
+
+#### `action`
+Define a URL para onde os dados do formulário serão enviados.
+
+#### `method`
+Especifica o método HTTP para enviar os dados. Os valores mais comuns são:
+- `"GET"`: Os dados são anexados à URL na barra de endereços.
+- `"POST"`: Os dados são enviados no corpo da requisição HTTP, sendo mais seguro e usado para enviar grandes quantidades de dados.
+
+#### `enctype`
+Define o tipo de codificação dos dados que serão enviados, importante para uploads de arquivos.
+- `"application/x-www-form-urlencoded"`: Padrão para formulários simples.
+- `"multipart/form-data"`: Usado quando o formulário contém upload de arquivos.
+
+#### `target`
+Especifica onde a resposta será exibida, como em uma nova aba ou janela.
+- `_blank`: Abre a resposta em uma nova aba ou janela.
+
+#### `autocomplete`
+Especifica se o navegador pode ou não sugerir automaticamente os dados anteriormente inseridos.
+
+> Fonte: <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/form">`<form>`</a>
 
 
 
 ## Tag `<fieldset>`
+A tag `<fieldset>` é usado para agrupar visual e semantemente campos relacionados dentro de um formulário. Ele ajuda a organizar os campos de forma lógica, facilitando a compreensão tanto para os usuários quanto para as tecnologias assistivas. Visualmente, o `<fieldset>` é exibido com uma borda em torno dos campos agrupados, o que ajuda a destacar que aqueles elementos pertencem a uma mesma categoria ou seção.
+
+> Fonte: <a href="https://developer.mozilla.org/pt-BR/docs/Web/HTML/Element/fieldset">`<fieldset>`</a>
 
 
 
 ## Tag `<legend>`
+A tag `<legend>` é frequentemente usada dentro de `<fieldset>` para fornecer uma legenda ou título para o grupo de campos, explicando o propósito do agrupamento.
+
+> Fonte: <a href="https://developer.mozilla.org/pt-BR/docs/Web/HTML/Element/legend">`<legend>`</a>
 
 
 
@@ -225,6 +273,8 @@ width, height, style, usemap, usemap, usemap e usemap.
 
 #### Outros atributos mais comuns que podem ser usados com a tag `<label>`:
 `form`, `style`, `title`, `lang`, `dir`, `accesskey`, `hidden`, `aria-*`, `tabindex`.
+
+> Fonte: <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/label">`<label>`</a>
 
 
 
@@ -290,6 +340,20 @@ Ela é usada para criar campos interativos onde os usuários podem inserir dados
 #### Outros atributos mais comuns que podem ser usados com a tag `<input>`:
 `readonly`, `min` e `max`, `step`, `autofocus`, `autocomplete`, `multiple`, `size`, `form`, `list`, `accept`, `alt`, `src`, `height` e `width`, `formaction`, `formenctype`, `formnovalidate`, `formtarget`.
 
+> Fonte: <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input">`<input>`</a>
+
 
 
 ## Tag `<footer>`
+A tag `<footer>` é utilizada para definir o rodapé de uma seção ou de um documento. Ela geralmente contém informações relacionadas ao conteúdo que a precede, como direitos autorais, informações de contato, links de navegação, ou outras informações pertinentes.
+
+> Fonte: <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/footer">`<footer>`</a>
+
+
+
+## Atributos globais
+Atributos globais são atributos comuns a todos os elementos HTML; eles podem ser usados em todos os elementos, embora possam não ter efeito em alguns elementos.
+
+EX.: `class`, `id`, `hidden`, `style`, `title` e etc.
+
+> Fonte: <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Global_attributes">Atributos globais</a>
