@@ -16,7 +16,7 @@ Cada pessoa pode criar o seu próprio reset CSS a partir da necessidade do seu p
 
 Um dos mais utilizados e conhecidos foi desenvolvido pelo Eric Meyer. No [blog] (https://meyerweb.com/eric/tools/css/reset/), ele explica um pouco sobre a técnica e como desenvolveu o seu código reset.
 
-``` css
+``` reset.css
 /* http://meyerweb.com/eric/tools/css/reset/ 
    v2.0 | 20110126
    License: none (public domain)
@@ -66,3 +66,6 @@ table {
 	border-spacing: 0;
 }
 ```
+O mais habitual é que antes de se começar a estilizar o projeto, o arquivo reset CSS já seja adicionado para que seja feita a remoção da formatação original dos browsers.
+
+Isso porque, caso o reset CSS seja adicionado no meio do projeto, por exemplo, pode gerar dores de cabeça já que o layout foi criado utilizando como referência a formatação dos navegadores e não na padronização dos elementos que foram resetados.
