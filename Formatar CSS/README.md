@@ -1,4 +1,4 @@
-# Material para Pesquisa
+# Material para apoio
 
 1. Box-sizing: <a href="https://developer.mozilla.org/en-US/docs/Web/CSS/box-sizing">site</a>
 2. Flexbox: <a href="https://css-tricks.com/snippets/css/a-guide-to-flexbox/">site</a>
