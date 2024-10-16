@@ -23,3 +23,6 @@
 
 ## Unidades de medidas
 - Alura: <a href="https://www.alura.com.br/artigos/guia-de-unidades-no-css?_gl=1*7gk8w1*_ga*MTk2NTMxOTE1Ni4xNjgwNTI1MDc3*_ga_1EPWSW3PCS*MTY5NTY4OTE1OC4xMTcuMS4xNjk1Njg5NzIxLjAuMC4w*_fplc*dFZkNGVBamZrTFVWc0JHUVZlUTl5V25UYWlKcW94UGRvVHJaOWM3SUx1aVFUVWZ3SGZpTHkzQlJuTSUyQkxCeER6NzBRb0J3MVZvYldaZkhuQjdXRFolMkJkeHh3T0NsNGlkQVY1cCUyQkJpQ3BJNDhrJTJCcVdsMUoycEhIVlMybGpnT2clM0QlM0Q.">site</a>
+
+## Outros conteudos
+- css-tricks: <a href="https://css-tricks.com/">site</a>
