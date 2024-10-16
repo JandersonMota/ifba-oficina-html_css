@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            width: 100%;
+            max-width: 900px;
+            background-color: antiquewhite;
+            display: block;
+            justify-content: center;
+        }
+
+        main {
+            padding: 0 5%;
+            background-color: #fff;
+        }
+
+        .botao {
+            padding: 1% 2%;
+            width: 100%;
+            max-width: 150px;
+            background-color: aquamarine;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            border-radius: 30px;
+            box-shadow: 0px 0px 5px black;
+        }
+
+        .iconbotao {
+            margin-left: 10px;
+        }
+
+        .botao:hover{
+            cursor: pointer;
+            background-color: rgb(0, 89, 255);
+            border: 2px solid black;
+            color: #fff;
+        }
+    </style>
+</head>
+<body>
+    <main>
+        <div>
+            <h2>Diferença: <i>input type="submit"</i> VS <i>input type="button"</i> VS <i>button</i></h2>
+        </div>
+
+        <div>
+            <input type="submit" value="Enviar 01">
+            <input type="button" value="Enviar 02">
+            <button type="submit">Enviar 03</button>
+        </div>
+
+        <div>
+            <p>Botão <b>Enviar 01</b>:</p>
+            <ul>
+                <li>Este elemento é usado exclusivamente para enviar o formulário.</li>
+                <li>Quando clicado, ele automaticamente envia os dados do formulário para a URL especificada no atributo <i>action</i> do elemento <<i>form</i>>.</li>
+                <li>Ele não permite a adição de conteúdo personalizado, como ícones ou outros elementos HTML dentro dele.</li>
+                <li>O texto do botão é controlado pelo atributo <i>value</i>.</li>
+            </ul>
+            <p>Botão <b>Enviar 02</b>:</p>
+            <ul>
+                <li><b>Função:</b> É um botão genérico que não faz nada por si só. Não possui nenhuma ação específica associada, como envio de formulário.</li>
+                <li><b>Comportamento:</b> Para que execute alguma ação (como enviar o formulário, exibir um modal, etc.), você precisa usar JavaScript e definir explicitamente o que ele deve fazer, geralmente com o atributo <i>onclick</i>.</li>
+                <li><b>Conteúdo:</b> Só pode conter texto simples definido pelo atributo <i>value</i>, ou seja, você não pode adicionar outros elementos HTML dentro de um <<i>input</i>>.</li>
+            </ul>
+            <p>Botão <b>Enviar 03</b>:</p>
+            <ul>
+                <li>O elemento <i>button</i> é mais flexível. Ele pode ser usado para diferentes ações e permite a inclusão de conteúdo HTML dentro dele, como texto, ícones ou imagens.</li>
+                <li>Para enviar um formulário, o atributo <i>type</i> deve ser definido como <i>submit</i>.</li>
+                <li>Caso não tenha o <i>type</i> definido, o comportamento padrão é como um botão genérico.</li>
+                <li>Você pode adicionar HTML e estilizações dentro do botão.</li>
+            </ul>
+            <button type="submit" class="botao">
+                Enviar 03 <img src="../assets/entrega-rapida.png" alt="ícone" class="iconbotao" width="20" height="20">
+            </button>
+        </div>
+
+        <div>
+            <h3>Resumo:</h3>
+            <ul>
+                <li><<i>input type="submit"</i>> é mais simples e direto, ideal para um botão de envio básico.</li>
+                <li><<i>input type="button"</i>> Não faz nada por si só e só pode exibir texto simples. Precisa de JavaScript para executar ações.</li>
+                <li><<i>button type="submit"</i>> é mais flexível, pois permite personalização e inclusão de outros elementos, além de também poder ser usado para enviar formulários.</li>
+            </ul>
+        </div>
+    </main>
+</body>
+</html>

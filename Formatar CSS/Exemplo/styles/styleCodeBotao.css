@@ -1,0 +1,8 @@
+#largura-fixa {
+    width: 300px;
+}
+
+#largura-respansiva {
+    width: 100%;
+    max-width: 300px;
+}

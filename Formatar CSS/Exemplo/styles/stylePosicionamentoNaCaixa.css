@@ -1,0 +1,37 @@
+#caixa-um {
+    width: 400px;
+    height: 150px;
+    background-color: rgb(99, 160, 240);
+    display: flex;
+    /*justify-content: flex-start;*/
+    justify-content: center;
+    /*justify-content: flex-end;*/
+}
+
+#caixa-dois {
+    width: 400px;
+    height: 150px;
+    background-color: rgb(240, 231, 99);
+    display: flex;
+    /*align-items: flex-start;*/
+    align-items: center;
+    /*align-items: flex-end;*/
+}
+
+#caixa-tres {
+    width: 400px;
+    height: 150px;
+    background-color: rgb(240, 99, 99);
+    display: flex;
+    /*align-items: flex-start;*/
+    align-items: center;
+    /*align-items: flex-end;*/
+    /*justify-content: flex-start;*/
+    justify-content: center;
+    /*justify-content: flex-end;*/
+}
+
+h3 {
+    margin: 0;
+    padding: 0;
+}

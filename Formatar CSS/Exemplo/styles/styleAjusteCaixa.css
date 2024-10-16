@@ -1,0 +1,23 @@
+.caixa-principal {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.subcaixa {
+    flex-grow: 1;
+    flex-basis: 200;
+}
+
+.impar, .par {
+    width: 300px;
+    height: 150px;
+    border: 2px solid black;
+}
+
+.impar {
+    background-color: blueviolet;
+}
+
+.par {
+    background-color: bisque;
+}
