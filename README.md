@@ -27,3 +27,10 @@ Essa extensão permite criar um servidor local na sua máquina, conseguindo visu
 
 ## Entenda as diferenças
 ![image](https://github.com/user-attachments/assets/299fde1d-d645-4137-b39b-d0ef6db45fd7)
+
+## URI, URL e URN
+O mas importante é URI e URL.
+
+![image](https://media.invisioncic.com/v310067/monthly_2022_05/image.png.b77f5acd8f0bdd27f5fb34ab18ab323d.png)
+
+![image](https://odiseageek.es/assets/2021/06/ogx43rq.png)
