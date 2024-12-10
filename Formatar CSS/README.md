@@ -10,6 +10,7 @@
 6. API Google Fonts: <a href="https://developers.google.com/fonts/docs/getting_started?hl=pt-br">site</a>
 7. Google Fonts: <a href="https://fonts.google.com/">site</a>
 8. Media Queries: <a href="https://developer.mozilla.org/pt-BR/docs/Web/CSS/CSS_media_queries/Using_media_queries">site</a>
+9. CSS-Tricks: <a href="https://css-tricks.com/guides/">site</a>
 
 ## Site para se inspirar a criatividade
 - Codepen: <a href="https://codepen.io/">site</a>
